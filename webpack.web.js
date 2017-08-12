@@ -1,5 +1,5 @@
 module.exports = {
-    entry: ['babel-polyfill', './src/FreeDraw.js'],
+    entry: ['./src/FreeDraw.js'],
     output: {
         filename: './dist/leaflet-freedraw.web.js',
         libraryTarget: 'var'
